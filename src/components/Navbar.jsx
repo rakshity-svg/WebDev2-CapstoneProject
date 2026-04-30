@@ -36,11 +36,12 @@ export default function Navbar() {
   const unreadCount = notifications.filter((n) => !n.read).length;
 
   const navLinks = [
-    { label: 'Home', to: '/' },
-    { label: 'TV Shows', to: '/tvshows' },
-    { label: 'Movies', to: '/movies' },
-    { label: 'Explore', to: '/explore' },
-    { label: 'My List', to: '/mylist' },
+    { name: 'Home', path: '/' },
+    { name: 'Movies', path: '/movies' },
+    { name: 'TV Shows', path: '/tv-shows' },
+    { name: 'Anime', path: '/anime' },
+    { name: 'My List', path: '/my-list' },
+    { name: 'Explore', path: '/explore' },
   ];
 
   return (

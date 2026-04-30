@@ -5,7 +5,7 @@ import { Play, Plus, Check, ChevronDown, SlidersHorizontal } from 'lucide-react'
 import { allContent, genres, contentRows } from '../data/mockData';
 import { useApp } from '../context/AppContext';
 
-const FILTER_TYPES = ['All', 'Movies', 'TV Shows'];
+const FILTER_TYPES = ['All', 'Movies', 'TV Shows', 'Anime'];
 const SORT_OPTIONS = ['Trending', 'Year', 'A-Z', 'Match %'];
 
 function ExploreCard({ item }) {
@@ -95,8 +95,16 @@ export default function Explore({ initialType = 'All', pageTitle = 'Explore', pa
 
   const filteredContent = useMemo(() => {
     let items = [...allContent];
-    if (activeType === 'Movies') items = items.filter(i => !i.duration?.includes('Season') && !i.duration?.includes('Episodes'));
-    if (activeType === 'TV Shows') items = items.filter(i => i.duration?.includes('Season') || i.duration?.includes('Episodes'));
+    if (activeType === 'Movies') items = items.filter(i => !i.duration?.includes('Season') && !i.duration?.includes('Episodes') && !i.id.includes('anime'));
+    if (activeType === 'TV Shows') items = items.filter(i => (i.duration?.includes('Season') || i.duration?.includes('Episodes')) && !i.id.includes('anime'));
+    if (activeType === 'Anime') {
+      const animeIds = [
+        "a-silent-voice", "anohana", "bakemonogatari", "bleach-tybw", "bocchi", "chainsaw-reze", "clannad-as", "code-geass", "cyberpunk", 
+        "death-note", "evangelion-thrice", "fate-ubw", "fate-hf", "fate-strange", "frieren", "i-want-to-eat", "jojo-stardust", "kaguya", 
+        "konosuba", "mushoku", "non-non", "steins-gate", "summertime", "takopi", "gurren-lagann", "haruhi", "sakurasou", "toradora", "vinland-saga", "violet-evergarden", "your-name"
+      ];
+      items = items.filter(i => animeIds.includes(i.id));
+    }
     if (activeGenre !== 'All') items = items.filter(i => i.genre?.toLowerCase().includes(activeGenre.toLowerCase()));
     if (sortBy === 'Year') items.sort((a, b) => b.year - a.year);
     if (sortBy === 'A-Z') items.sort((a, b) => a.title.localeCompare(b.title));

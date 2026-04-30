@@ -30,6 +30,104 @@ import trueDetectiveImg from '../assets/TV_Shows/True_Detective_season_1.png';
 import twoAndAHalfMenImg from '../assets/TV_Shows/two and a half men.jpg';
 import youngSheldonImg from '../assets/TV_Shows/YoungSheldon.jpg';
 
+// --- Local Anime Asset Imports ---
+import silentVoiceImg from '../assets/anime/A Silent Voice.jpg';
+import anohanaImg from '../assets/anime/Anohana- The Flower We Saw That Day.jpg';
+import bakemonogatariImg from '../assets/anime/Bakemonogatari.jpg';
+import bleachImg from '../assets/anime/Bleach-TYBW.jpg';
+import bocchiImg from '../assets/anime/Bocchi the Rock!.jpg';
+import chainsawImg from '../assets/anime/Chainsaw Man – The Movie- Reze Arc.jpg';
+import clannadImg from '../assets/anime/Clannad- After Story.jpg';
+import codeGeassImg from '../assets/anime/Code Geass- Lelouch of the Rebellion.jpg';
+import cyberpunkImg from '../assets/anime/Cyberpunk- Edgerunners.jpg';
+import deathNoteImg from '../assets/anime/Death Note.jpg';
+import evangelionImg from '../assets/anime/Evangelion- 3.0+1.0 Thrice Upon a Time.jpg';
+import fateUbwImg from '../assets/anime/Fate_stay night [Unlimited Blade Works].jpg';
+import fateHfImg from '../assets/anime/Fate_stay night- Heaven\'s Feel - I. Presage Flower.jpg';
+import fateSfImg from '../assets/anime/Fate_strange Fake.jpg';
+import frierenImg from '../assets/anime/Frieren- Beyond Journey\'s End.jpg';
+import pancreasImg from '../assets/anime/I Want To Eat Your Pancreas.jpg';
+import jojoImg from '../assets/anime/JoJo\'s Bizarre Adventure- Stardust Crusaders - Battle in Egypt.jpg';
+import kaguyaImg from '../assets/anime/Kaguya-sama- Love is War_.jpg';
+import konosubaImg from '../assets/anime/KonoSuba- God\'s Blessing on This Wonderful World!.jpg';
+import mushokuImg from '../assets/anime/Mushoku Tensei- Jobless Reincarnation.jpg';
+import nonNonImg from '../assets/anime/Non Non Biyori Nonstop.jpg';
+import steinsGateImg from '../assets/anime/Steins;Gate.jpg';
+import summerTimeImg from '../assets/anime/Summer Time Rendering.jpg';
+import takopiImg from '../assets/anime/Takopi\'s Original Sin.jpg';
+import gurrenLagannImg from '../assets/anime/Tengen Toppa Gurren Lagann.jpg';
+import haruhiImg from '../assets/anime/The Disappearance of Haruhi Suzumiya.jpg';
+import sakurasouImg from '../assets/anime/The Pet Girl of Sakurasou.jpg';
+import toradoraImg from '../assets/anime/Toradora!.jpg';
+import vinlandImg from '../assets/anime/Vinland Saga.jpg';
+import violetImg from '../assets/anime/Violet Evergarden.jpg';
+import yourNameImg from '../assets/anime/Your Name..jpg';
+
+// ============================================================
+// MOCK DATA — OTT Platform (Real Movies)
+// ============================================================
+
+// --- Local movie asset imports ---
+import duneImg from '../assets/movies/Dune.jpg';
+import fightClubImg from '../assets/movies/Fight Club.jpg';
+import greenMileImg from '../assets/movies/GreenMIle.jpg';
+import hangoverImg from '../assets/movies/Hangover.jpg';
+import inglouriousImg from '../assets/movies/Inglourious Basterds.jpg';
+import killBillImg from '../assets/movies/KIllBill.jpg';
+import martianImg from '../assets/movies/Martian.jpg';
+import oldboyImg from '../assets/movies/Oldboy.jpg';
+import parasiteImg from '../assets/movies/Parasite.jpg';
+import schindlersImg from '../assets/movies/Schindlers List.jpg';
+import shawshankImg from '../assets/movies/Shawshank.jpg';
+import shutterImg from '../assets/movies/Shutter.jpg';
+import allQuietImg from '../assets/movies/all quiet on the western front.jpg';
+
+// --- Local TV Show Asset Imports ---
+import betterCallSaulImg from '../assets/TV_Shows/BetterCallSaul.jpg';
+import blackMirrorImg from '../assets/TV_Shows/black mirror.jpg';
+import breakingBadImg from '../assets/TV_Shows/breaking bad.jpg';
+import brooklyn99Img from '../assets/TV_Shows/brooklyn 99.jpg';
+import chernobylImg from '../assets/TV_Shows/Chernobyl_2019_Miniseries.jpg';
+import darkImg from '../assets/TV_Shows/Dark.jpg';
+import friendsImg from '../assets/TV_Shows/Friends.jpg';
+import theWireImg from '../assets/TV_Shows/TheWire.jpg';
+import trueDetectiveImg from '../assets/TV_Shows/True_Detective_season_1.png';
+import twoAndAHalfMenImg from '../assets/TV_Shows/two and a half men.jpg';
+import youngSheldonImg from '../assets/TV_Shows/YoungSheldon.jpg';
+
+// --- Local Anime Asset Imports ---
+import silentVoiceImg from '../assets/anime/A Silent Voice.jpg';
+import anohanaImg from '../assets/anime/Anohana- The Flower We Saw That Day.jpg';
+import bakemonogatariImg from '../assets/anime/Bakemonogatari.jpg';
+import bleachImg from '../assets/anime/Bleach-TYBW.jpg';
+import bocchiImg from '../assets/anime/Bocchi the Rock!.jpg';
+import chainsawImg from '../assets/anime/Chainsaw Man – The Movie- Reze Arc.jpg';
+import clannadImg from '../assets/anime/Clannad- After Story.jpg';
+import codeGeassImg from '../assets/anime/Code Geass- Lelouch of the Rebellion.jpg';
+import cyberpunkImg from '../assets/anime/Cyberpunk- Edgerunners.jpg';
+import deathNoteImg from '../assets/anime/Death Note.jpg';
+import evangelionImg from '../assets/anime/Evangelion- 3.0+1.0 Thrice Upon a Time.jpg';
+import fateUbwImg from '../assets/anime/Fate_stay night [Unlimited Blade Works].jpg';
+import fateHfImg from '../assets/anime/Fate_stay night- Heaven\'s Feel - I. Presage Flower.jpg';
+import fateSfImg from '../assets/anime/Fate_strange Fake.jpg';
+import frierenImg from '../assets/anime/Frieren- Beyond Journey\'s End.jpg';
+import pancreasImg from '../assets/anime/I Want To Eat Your Pancreas.jpg';
+import jojoImg from '../assets/anime/JoJo\'s Bizarre Adventure- Stardust Crusaders - Battle in Egypt.jpg';
+import kaguyaImg from '../assets/anime/Kaguya-sama- Love is War_.jpg';
+import konosubaImg from '../assets/anime/KonoSuba- God\'s Blessing on This Wonderful World!.jpg';
+import mushokuImg from '../assets/anime/Mushoku Tensei- Jobless Reincarnation.jpg';
+import nonNonImg from '../assets/anime/Non Non Biyori Nonstop.jpg';
+import steinsGateImg from '../assets/anime/Steins;Gate.jpg';
+import summerTimeImg from '../assets/anime/Summer Time Rendering.jpg';
+import takopiImg from '../assets/anime/Takopi\'s Original Sin.jpg';
+import gurrenLagannImg from '../assets/anime/Tengen Toppa Gurren Lagann.jpg';
+import haruhiImg from '../assets/anime/The Disappearance of Haruhi Suzumiya.jpg';
+import sakurasouImg from '../assets/anime/The Pet Girl of Sakurasou.jpg';
+import toradoraImg from '../assets/anime/Toradora!.jpg';
+import vinlandImg from '../assets/anime/Vinland Saga.jpg';
+import violetImg from '../assets/anime/Violet Evergarden.jpg';
+import yourNameImg from '../assets/anime/Your Name..jpg';
+
 // ============================================================
 
 export const profiles = [
@@ -238,9 +336,51 @@ export const tvShowsRow = {
 };
 
 // ============================================================
+// Anime Section
+// ============================================================
+export const animeRow = {
+  id: "anime",
+  label: "🎌 Top Anime Picks",
+  items: [
+    { id: "a-silent-voice", title: "A Silent Voice", thumbnail: silentVoiceImg, year: 2016, rating: "TV-14", match: 96, genre: "Drama", synopsis: "A young man is ostracized by his classmates after he bullies a deaf girl to the point where she moves away. Years later, he sets off on a path to redemption.", duration: "2h 10m" },
+    { id: "anohana", title: "Anohana: The Flower We Saw That Day", thumbnail: anohanaImg, year: 2011, rating: "TV-14", match: 91, genre: "Drama", synopsis: "A group of five childhood friends drift apart after the death of their mutual friend, but her ghost returns years later to grant her final wish.", seasons: 1, duration: "1 Season" },
+    { id: "bakemonogatari", title: "Bakemonogatari", thumbnail: bakemonogatariImg, year: 2009, rating: "TV-MA", match: 89, genre: "Mystery", synopsis: "Koyomi Araragi, a third-year high school student who managed to survive a vampire attack, finds himself mixed up with all kinds of apparitions.", seasons: 1, duration: "1 Season" },
+    { id: "bleach-tybw", title: "Bleach: Thousand-Year Blood War", thumbnail: bleachImg, year: 2022, rating: "TV-MA", match: 95, genre: "Action", synopsis: "The peace is suddenly broken when warning sirens blare through the Soul Society. Residents are disappearing without a trace, and nobody knows who's behind it.", seasons: 2, duration: "2 Seasons" },
+    { id: "bocchi", title: "Bocchi the Rock!", thumbnail: bocchiImg, year: 2022, rating: "TV-14", match: 97, genre: "Comedy", synopsis: "Hitori Gotoh is a lonely, socially anxious girl who loves playing guitar. Her life changes when she joins the Kessoku Band.", seasons: 1, duration: "1 Season" },
+    { id: "chainsaw-reze", title: "Chainsaw Man: The Movie - Reze Arc", thumbnail: chainsawImg, year: 2024, rating: "TV-MA", match: 93, genre: "Action", synopsis: "Denji meets a mysterious and charming girl named Reze, who works at a café. However, an explosive secret threatens their budding relationship.", duration: "Movie" },
+    { id: "clannad-as", title: "Clannad: After Story", thumbnail: clannadImg, year: 2008, rating: "TV-14", match: 98, genre: "Drama", synopsis: "The events occurring immediately after those in the first season, following Tomoya and Nagisa as they graduate and experience the hardships of adult life.", seasons: 1, duration: "1 Season" },
+    { id: "code-geass", title: "Code Geass: Lelouch of the Rebellion", thumbnail: codeGeassImg, year: 2006, rating: "TV-MA", match: 96, genre: "Sci-Fi", synopsis: "After being given a mysterious power to control others, an outcast prince becomes the masked leader of the rebellion against an all-powerful empire.", seasons: 2, duration: "2 Seasons" },
+    { id: "cyberpunk", title: "Cyberpunk: Edgerunners", thumbnail: cyberpunkImg, year: 2022, rating: "TV-MA", match: 95, genre: "Action", synopsis: "A street kid tries to survive in a technology and body modification-obsessed city of the future. Having everything to lose, he chooses to stay alive by becoming an edgerunner.", seasons: 1, duration: "1 Season" },
+    { id: "death-note", title: "Death Note", thumbnail: deathNoteImg, year: 2006, rating: "TV-14", match: 99, genre: "Thriller", synopsis: "An intelligent high school student goes on a secret crusade to eliminate criminals from the world after discovering a notebook capable of killing anyone whose name is written into it.", seasons: 1, duration: "1 Season" },
+    { id: "evangelion-thrice", title: "Evangelion: 3.0+1.0 Thrice Upon a Time", thumbnail: evangelionImg, year: 2021, rating: "TV-MA", match: 94, genre: "Sci-Fi", synopsis: "The fourth and final installment of the Rebuild of Evangelion series, concluding the epic saga of Shinji Ikari and the fate of humanity.", duration: "2h 35m" },
+    { id: "fate-ubw", title: "Fate/stay night [Unlimited Blade Works]", thumbnail: fateUbwImg, year: 2014, rating: "TV-MA", match: 92, genre: "Action", synopsis: "High school student Shirou is pulled into a magical tournament where seven mages summon heroic spirits to battle for the Holy Grail.", seasons: 2, duration: "2 Seasons" },
+    { id: "fate-hf", title: "Fate/stay night: Heaven's Feel - I. Presage Flower", thumbnail: fateHfImg, year: 2017, rating: "TV-MA", match: 90, genre: "Action", synopsis: "The first film in a trilogy that explores the darker, hidden truths of the Holy Grail War through Sakura Matou's perspective.", duration: "2h 00m" },
+    { id: "fate-strange", title: "Fate/strange Fake", thumbnail: fateSfImg, year: 2023, rating: "TV-MA", match: 88, genre: "Action", synopsis: "A False Holy Grail War occurs in the United States, bringing forth new twists, unpredictable matches, and mysteries.", duration: "Special" },
+    { id: "frieren", title: "Frieren: Beyond Journey's End", thumbnail: frierenImg, year: 2023, rating: "TV-14", match: 99, genre: "Fantasy", synopsis: "An elf and her friends defeat a demon king in a great war. But years pass, and the elf must watch her friends grow old and die.", seasons: 1, duration: "1 Season" },
+    { id: "i-want-to-eat", title: "I Want To Eat Your Pancreas", thumbnail: pancreasImg, year: 2018, rating: "TV-14", match: 93, genre: "Drama", synopsis: "An aloof boy stumbles upon a secretly ill classmate's diary and decides to spend time with her during her final months.", duration: "1h 48m" },
+    { id: "jojo-stardust", title: "JoJo's Bizarre Adventure: Stardust Crusaders - Battle in Egypt", thumbnail: jojoImg, year: 2015, rating: "TV-MA", match: 95, genre: "Action", synopsis: "Jotaro Kujo and his allies reach Egypt and face the final battles in their quest to defeat the immortal vampire DIO.", seasons: 1, duration: "1 Season" },
+    { id: "kaguya", title: "Kaguya-sama: Love is War", thumbnail: kaguyaImg, year: 2019, rating: "TV-14", match: 94, genre: "Comedy", synopsis: "Two top student council members secretly like each other but are too proud to confess, leading to an escalating war of mind games to force a confession.", seasons: 3, duration: "3 Seasons" },
+    { id: "konosuba", title: "KonoSuba: God's Blessing on This Wonderful World!", thumbnail: konosubaImg, year: 2016, rating: "TV-14", match: 92, genre: "Comedy", synopsis: "A dying teenage shut-in is reborn in a fantasy world with a useless goddess, a magic-obsessed loli, and a masochistic crusader.", seasons: 3, duration: "3 Seasons" },
+    { id: "mushoku", title: "Mushoku Tensei: Jobless Reincarnation", thumbnail: mushokuImg, year: 2021, rating: "TV-MA", match: 96, genre: "Fantasy", synopsis: "A 34-year-old underachiever is run over by a bus, but his story doesn't end there. Reincarnated in a new world as an infant, he decides to live a fulfilling life.", seasons: 2, duration: "2 Seasons" },
+    { id: "non-non", title: "Non Non Biyori Nonstop", thumbnail: nonNonImg, year: 2021, rating: "TV-PG", match: 89, genre: "Slice of Life", synopsis: "Follows the daily lives of a group of girls in a rural village, where the nearest store is a long walk away and they have only one school class.", seasons: 1, duration: "1 Season" },
+    { id: "steins-gate", title: "Steins;Gate", thumbnail: steinsGateImg, year: 2011, rating: "TV-14", match: 98, genre: "Sci-Fi", synopsis: "A self-proclaimed mad scientist and his friends invent a microwave that can send text messages into the past, leading to devastating temporal consequences.", seasons: 1, duration: "1 Season" },
+    { id: "summertime", title: "Summer Time Rendering", thumbnail: summerTimeImg, year: 2022, rating: "TV-MA", match: 92, genre: "Mystery", synopsis: "Shinpei returns to his hometown island for his childhood friend's funeral, but soon realizes that her death might just be part of a much darker island mystery.", seasons: 1, duration: "1 Season" },
+    { id: "takopi", title: "Takopi's Original Sin", thumbnail: takopiImg, year: 2024, rating: "TV-14", match: 85, genre: "Sci-Fi", synopsis: "A naive alien comes to Earth to spread happiness and meets a severely bullied girl, attempting to fix her life with well-meaning but catastrophic results.", seasons: 1, duration: "1 Season" },
+    { id: "gurren-lagann", title: "Tengen Toppa Gurren Lagann", thumbnail: gurrenLagannImg, year: 2007, rating: "TV-14", match: 94, genre: "Action", synopsis: "Two friends break through to the surface world using a mysterious mech, launching an intergalactic rebellion to free mankind from the spiral king.", seasons: 1, duration: "1 Season" },
+    { id: "haruhi", title: "The Disappearance of Haruhi Suzumiya", thumbnail: haruhiImg, year: 2010, rating: "TV-14", match: 93, genre: "Sci-Fi", synopsis: "Kyon wakes up to find that the reality he knew has drastically changed. Haruhi is gone, and he is the only one who remembers the way things were.", duration: "2h 42m" },
+    { id: "sakurasou", title: "The Pet Girl of Sakurasou", thumbnail: sakurasouImg, year: 2012, rating: "TV-14", match: 87, genre: "Romance", synopsis: "A normal high schooler is tasked with managing a dorm of eccentric artistic geniuses and taking care of a brilliant but completely helpless transfer student.", seasons: 1, duration: "1 Season" },
+    { id: "toradora", title: "Toradora!", thumbnail: toradoraImg, year: 2008, rating: "TV-14", match: 91, genre: "Romance", synopsis: "Ryuji and Taiga, two completely opposite high schoolers, form an alliance to help each other confess to their respective crushes.", seasons: 1, duration: "1 Season" },
+    { id: "vinland-saga", title: "Vinland Saga", thumbnail: vinlandImg, year: 2019, rating: "TV-MA", match: 98, genre: "Action", synopsis: "A young Viking boy swears revenge after witnessing his father's murder, joining a mercenary band and plunging into the violence and brutality of war-torn Europe.", seasons: 2, duration: "2 Seasons" },
+    { id: "violet-evergarden", title: "Violet Evergarden", thumbnail: violetImg, year: 2018, rating: "TV-14", match: 97, genre: "Drama", synopsis: "In the aftermath of a great war, Violet Evergarden, a young female ex-soldier, gets a job at a writers' agency and goes on assignments to create letters that can connect people.", seasons: 1, duration: "1 Season" },
+    { id: "your-name", title: "Your Name.", thumbnail: yourNameImg, year: 2016, rating: "TV-PG", match: 99, genre: "Romance", synopsis: "Two teenagers share a profound, magical connection upon discovering they are swapping bodies. But things become even more complicated when the boy and girl decide to meet in person.", duration: "1h 46m" }
+  ]
+};
+
+// ============================================================
 // Content Rows — using real movie data
 // ============================================================
 export const contentRows = [
+  animeRow,
   tvShowsRow,
   {
     id: "trending",
@@ -569,7 +709,11 @@ export const genres = [
   { id: "war", label: "War & History", color: "#f97316", img: inglouriousImg },
 ];
 
-export const allContent = contentRows.flatMap((r) => r.items);
+export const allContent = [
+  ...animeRow.items,
+  ...tvShowsRow.items,
+  ...contentRows.flatMap((r) => r.items),
+];
 
 export const notifications = [
   { id: 1, text: "Dune: Part Two is now available to stream", time: "2h ago", read: false },
