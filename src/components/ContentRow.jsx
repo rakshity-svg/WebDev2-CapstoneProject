@@ -13,22 +13,22 @@ function MovieCard({ item, priority = false }) {
   return (
     <motion.div
       className="relative shrink-0 cursor-pointer"
-      style={{ width: '200px' }}
+      style={{ width: '160px' }}
       onHoverStart={() => setHovered(true)}
       onHoverEnd={() => setHovered(false)}
     >
       {/* Base Card */}
       <motion.div
-        className="relative rounded-md overflow-hidden bg-gray-900"
+        className="relative rounded-md overflow-hidden bg-gray-900 shadow-xl"
         animate={{
           scale: hovered ? 1.08 : 1,
-          zIndex: hovered ? 30 : 1,
+          zIndex: hovered ? 40 : 1,
         }}
         transition={{ type: 'spring', stiffness: 400, damping: 30 }}
         style={{ transformOrigin: 'center center' }}
       >
         {/* Thumbnail */}
-        <div className="aspect-video overflow-hidden">
+        <div className="aspect-[2/3] overflow-hidden bg-gray-800">
           <motion.img
             src={item.thumbnail}
             alt={item.title}

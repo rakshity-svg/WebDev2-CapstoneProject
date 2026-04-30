@@ -28,19 +28,19 @@ function ExploreCard({ item }) {
     >
       <div className="relative rounded-xl overflow-hidden bg-gray-900 shadow-lg">
         {/* Image */}
-        <div className="aspect-video overflow-hidden">
+        <div className="aspect-[2/3] overflow-hidden bg-gray-800">
           <motion.img
             src={item.thumbnail}
             alt={item.title}
             className="w-full h-full object-cover"
-            animate={{ scale: hovered ? 1.08 : 1 }}
+            animate={{ scale: hovered ? 1.05 : 1 }}
             transition={{ duration: 0.5 }}
             loading="lazy"
           />
         </div>
 
         {/* Gradient */}
-        <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/40 to-transparent" />
 
         {/* Content */}
         <div className="absolute bottom-0 left-0 right-0 p-4">
@@ -49,8 +49,8 @@ function ExploreCard({ item }) {
             <span className="border border-gray-600 text-gray-400 text-[10px] px-1.5 rounded">{item.rating}</span>
             <span className="text-gray-400 text-xs">{item.year}</span>
           </div>
-          <h3 className="text-white font-semibold text-sm truncate">{item.title}</h3>
-          <p className="text-gray-400 text-xs">{item.genre}</p>
+          <h3 className="text-white font-bold text-base truncate mb-0.5">{item.title}</h3>
+          <p className="text-gray-400 text-xs truncate max-w-full">{item.genre}</p>
 
           {/* Hover actions */}
           <AnimatePresence>
@@ -263,12 +263,9 @@ export default function Explore({ initialType = 'All', pageTitle = 'Explore', pa
 
       {/* Content Grid */}
       <div className="px-8 lg:px-16 pb-20">
-        <motion.div
-          layout
-          className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4"
-        >
+        <motion.div layout className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 2xl:grid-cols-8 gap-4 lg:gap-6">
           <AnimatePresence mode="popLayout">
-            {filteredContent.map((item) => (
+            {filteredContent.map(item => (
               <ExploreCard key={item.id} item={item} />
             ))}
           </AnimatePresence>
