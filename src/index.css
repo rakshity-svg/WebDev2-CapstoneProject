@@ -1,0 +1,163 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Bebas+Neue&display=swap');
+
+@theme {
+  --color-crimson: #e50914;
+  --color-crimson-dark: #b20710;
+  --color-gold: #f5c518;
+  --color-surface: #141414;
+  --color-surface-elevated: #1f1f1f;
+  --color-surface-card: #2a2a2a;
+  --color-muted: #6b7280;
+  --font-sans: 'Inter', sans-serif;
+  --font-display: 'Bebas Neue', sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #141414;
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-track {
+  background: #1f1f1f;
+}
+::-webkit-scrollbar-thumb {
+  background: #e50914;
+  border-radius: 2px;
+}
+
+/* Hide scrollbar for row sliders */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Cinematic gradient overlays */
+.hero-gradient {
+  background: linear-gradient(
+    to right,
+    rgba(20, 20, 20, 0.95) 0%,
+    rgba(20, 20, 20, 0.7) 50%,
+    transparent 100%
+  ),
+  linear-gradient(
+    to top,
+    rgba(20, 20, 20, 1) 0%,
+    rgba(20, 20, 20, 0.2) 40%,
+    transparent 100%
+  );
+}
+
+.card-gradient {
+  background: linear-gradient(
+    to top,
+    rgba(0,0,0,0.95) 0%,
+    rgba(0,0,0,0.5) 60%,
+    transparent 100%
+  );
+}
+
+/* Video player custom styles */
+.progress-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 4px;
+  background: rgba(255,255,255,0.3);
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+  transition: height 0.15s ease;
+}
+
+.progress-slider:hover {
+  height: 6px;
+}
+
+.progress-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #e50914;
+  cursor: pointer;
+  transition: transform 0.15s ease;
+}
+
+.progress-slider::-webkit-slider-thumb:hover {
+  transform: scale(1.3);
+}
+
+.volume-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 3px;
+  background: rgba(255,255,255,0.4);
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+  width: 80px;
+}
+
+.volume-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+/* Noise texture for premium feel */
+.noise-overlay::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+  pointer-events: none;
+  opacity: 0.04;
+  z-index: 1;
+}
+
+/* Glow effects */
+.glow-crimson {
+  box-shadow: 0 0 20px rgba(229, 9, 20, 0.4), 0 0 40px rgba(229, 9, 20, 0.2);
+}
+
+.text-glow {
+  text-shadow: 0 0 30px rgba(229, 9, 20, 0.5);
+}
+
+/* Avatar border animation */
+@keyframes borderPulse {
+  0%, 100% { box-shadow: 0 0 0 2px #e50914; }
+  50% { box-shadow: 0 0 0 4px #e50914, 0 0 20px rgba(229,9,20,0.4); }
+}
+
+.avatar-selected {
+  animation: borderPulse 2s ease-in-out infinite;
+}
